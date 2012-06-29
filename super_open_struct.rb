@@ -50,14 +50,3 @@ class SuperOpenStruct < OpenStruct
 
 
 end
-
-# wen want
-# s = SuperOpenStruct.new
-# s.some_method do |arg1, arg2|
-# end
-# s.some_method(arg1, arg2)
-# first define the method
-# register it in the hash
-# have the block call it
-# then, if its already defined
-# pass along the args
